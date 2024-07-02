@@ -39,7 +39,7 @@ def blog_detail_view(request, id):
 
 
 def about_view(request):
-    return render(request, 'about.html', context={'about': 'active'})
+    return render(request, 'about.html')
 
 
 def contact_view(request):
